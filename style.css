@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #292929;
+}
+
+nav {
+    padding: 50px 0 0 81px;
+}
+
+header nav img {
+    width: 130px;
+    height: 70px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 200px 0;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 600px;
+}
+
+.container p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 580px;
+    margin: 32px 0 20px 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#duck-img {
+    width: 305px;
+    height: 305px;
+    border-radius: 50%;
+}
